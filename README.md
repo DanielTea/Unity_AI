@@ -12,6 +12,3 @@ To run this code (ONLY TESTED ON UBUNTU LINUX):
 4. cd to ~/unity3d-roll-a-ball-master/Atari2
 5. `qlua main.lua -env rollaball -gpu 1 -hiddenSize 32 -optimiser adam  -steps 15000000 -learnStart 80000 -memSize 1000000 -epsilonSteps 50000 -valFreq 100000 -valSteps 50000 -bootstraps 0 -memPriority rank -PALpha 0 -duel true -verbose true -alpha 0.7 -betaZero 0.8 -eta 0.0000225`
 6. change `-gpu 1` to `-gpu 0` if you don`t want to use your gpu
-
-
-Code created while following http://unity3d.com/learn/tutorials/projects/roll-a-ball
