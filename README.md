@@ -5,7 +5,7 @@ This is the project sourcecode to run Unity-3Ds Roll-a-ball with Deep-Learning-a
 
 To run this code (ONLY TESTED ON UBUNTU LINUX): 
 
-1. download and install Unity-3D
+1. download and install Unity-3D 5.5.0p1 at https://forum.unity3d.com/threads/unity-on-linux-release-notes-and-known-issues.350256/ (scroll down to the bottom of the forum)
 2. Install Torch + dependencies following the steps on this github-repository:
    https://github.com/Kaixhin/Atari
 3. Import 'unity3d-roll-a-ball-master' as Unity project.
