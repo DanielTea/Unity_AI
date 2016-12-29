@@ -10,9 +10,11 @@ To run this code (ONLY TESTED ON UBUNTU LINUX):
    https://github.com/Kaixhin/Atari
 3. Import 'unity3d-roll-a-ball-master' as Unity project.
 4. Set the resolution in Unity. Go to: File -> Build settings -> Player settings -> Default Screen Width/Height
-5. Set the same resolution in the Lua script: 
+5. Set the same resolution in the Lua script:
+
    5.1 open with a text editor `~/unity3d-roll-a-ball-master/Atari2/rollaball.lua`
-   5.2 edit line 12 `self.size = opts.size or  <resolution>` change `<resolution>` to your set display resolution in Unity                example: `self.size = opts.size or 20`
+   
+   5.2 edit line 12 `self.size = opts.size or  <resolution>` change `<resolution>` to your set display resolution in Unity      example: `self.size = opts.size or 20`
    
 6. Start the project in Unity (click play)
 7. cd to `~/unity3d-roll-a-ball-master/Atari2`
